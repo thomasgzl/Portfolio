@@ -1,0 +1,9 @@
+.Contact {
+    background-color: rgba(22, 116, 4, 0.9);
+    color: white;
+    height: 1080px;
+}
+
+.Contact h1 {
+    padding-top: 100px;
+}

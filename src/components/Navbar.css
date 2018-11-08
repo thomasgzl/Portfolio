@@ -1,0 +1,38 @@
+.Navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    background: transparent;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 1px;
+    transition: 1.5s;
+}
+
+.Navigation:hover {
+    background-color: rgba(22, 22, 22, 0.9);
+    transition: 0.8s;
+    border-color: transparent;
+}
+
+.NavLogo {
+    height: 60px;
+}
+
+h4.links {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+h4.links:hover {
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+}
+
+.logoNav {
+    height: 100px;
+    margin-left: 500px;
+}

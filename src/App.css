@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Titillium Web', serif;
 }
 
 .App-logo {
@@ -8,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./background.gif");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,11 +23,14 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1.titre {
+  font-family: 'Viga', serif;
+  font-size: 120px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2.sous-titre {
+  font-family: 'Viga', serif;
+  font-size: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

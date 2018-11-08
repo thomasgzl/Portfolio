@@ -1,0 +1,14 @@
+.aPropos {
+    background-color: rgba(22, 22, 22, 0.9);
+    color: white;
+    height: 1080px;
+}
+
+.aPropos h1 {
+    padding-top: 100px;
+}
+
+.paragraphe {
+    text-align: center;
+    font-size: 20px;
+}

@@ -1,0 +1,9 @@
+.Footer {
+    background-color: rgba(47, 4, 116, 0.9);
+    color: white;
+    height: 200px;
+}
+
+.Footer h1 {
+    padding-top: 100px;
+}

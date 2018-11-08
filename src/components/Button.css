@@ -1,0 +1,12 @@
+.headerButton {
+    border: 1px solid white!important;
+    font-family: 'Teko', serif;
+    color: white!important;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .headerButton:hover {
+    background-color: rgba(22, 22, 22, 0.9)!important;
+  }
