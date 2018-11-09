@@ -7,7 +7,6 @@ import Navigation from './components/Navbar';
 import Apropos from './components/Apropos';
 import Projets from './components/Projets';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 class App extends Component {
   
@@ -31,15 +30,11 @@ class App extends Component {
 
         </header>
         </ScrollableAnchor>
-
       
       <Apropos />
       <Projets />
       <Contact />
-      <Footer />
       
-
-
       </div>
     );
   }

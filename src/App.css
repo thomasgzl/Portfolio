@@ -10,6 +10,7 @@
 
 .App-header {
   background-image: url("./background.gif");
+  box-shadow: 10px 10px black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

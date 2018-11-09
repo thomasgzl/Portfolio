@@ -7,3 +7,64 @@
 .Contact h1 {
     padding-top: 100px;
 }
+
+.Footer {
+    background-color: rgb(38, 67, 35);
+}
+
+.Twitter {
+    opacity: 0.50;
+    margin: 1%;
+}
+
+.Twitter:hover {
+    opacity: 1;
+}
+
+.Insta {
+    opacity: 0.50;
+    margin: 1%;
+}
+
+.Insta:hover {
+    opacity: 1;
+}
+
+.Git {
+    opacity: 0.50;
+    margin: 1%;
+}
+
+.Git:hover {
+    opacity: 1;
+}
+
+.Mail {
+    opacity: 0.50;
+    margin: 1%;
+}
+
+.Mail:hover {
+    opacity: 1;
+}
+
+.LinkedIn {
+    opacity: 0.50;
+    margin: 1%;
+}
+
+.LinkedIn:hover {
+    opacity: 1;
+}
+
+.copyright {
+    color: aliceblue;
+    opacity: 0.8;
+    font-size: 12px;
+    padding-bottom: 1%;
+}
+
+.coeur {
+    color: red;
+    font-size: 15px;
+}

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import './Apropos.css';
+import git from './github-brands.svg';
+import Photo from '../img/Photo.png';
 
 class Apropos extends Component {
 
@@ -19,6 +21,14 @@ class Apropos extends Component {
 
 🎓 Titulaire d’un BTS en Design Graphique, je suis actuellement en formation dans le développement web JavaScript REACT à la Wild Code School de Bordeaux.
 </p>
+
+<img src={Photo} className="myPhoto" alt="myPhoto" />
+
+<a href='https://github.com/thomasgzl' target='_blank'> <button className="buttonGit"> <img src={git} className="github" alt="logo" /> </button> </a>
+
+<a href='https://github.com/thomasgzl' target='_blank'> <button className="buttonGit"> <img src={git} className="github" alt="logo" /> </button> </a>
+
+
 
       </div>
       </ScrollableAnchor>

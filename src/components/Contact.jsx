@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { SocialIcon } from 'react-social-icons';
 import './Contact.css';
 
 class Contact extends Component {
@@ -20,7 +21,19 @@ class Contact extends Component {
 🎓 Titulaire d’un BTS en Design Graphique, je suis actuellement en formation dans le développement web JavaScript REACT à la Wild Code School de Bordeaux.
 </p>
 
+      <div className="Footer">
+        <h1>EL FOOTER</h1>
+        <SocialIcon color="white" className="LinkedIn" url="https://www.linkedin.com/in/thomasgzl/" />
+        <SocialIcon color="white" className="Twitter" url="https://twitter.com/athmos6" />
+        <SocialIcon color="white" className="Insta" url="https://www.instagram.com/athmos6/" />
+        <SocialIcon color="white" className="Git" url="https://github.com/thomasgzl" />
+        <SocialIcon color="white" className="Mail" url="mailto:thomasgonzalez.pro@gmail.com" />
+        <p className="copyright"> Made with <span className="coeur">♥</span> by Thomas Gonzalez • Développeur web junior • Copyright © 2018 </p>
+
       </div>
+
+      </div>
+
       </ScrollableAnchor>
 
           );
