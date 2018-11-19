@@ -11,7 +11,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons';
 
-  import logo from './logo.png';
+  import logo from './logoA.png';
   import './Navbar.css';
 
 export default class Navigation extends React.Component {

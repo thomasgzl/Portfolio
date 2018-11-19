@@ -1,9 +1,36 @@
 .Projets {
-    background-color: rgba(116, 81, 4, 0.9);
+    background: url('../img/2background.png');
     color: white;
     height: 1080px;
 }
 
 .Projets h1 {
     padding-top: 100px;
+}
+
+.contimg {
+    transition: 1s;
+}
+
+.projetImg {
+    border: 1px solid white;
+}
+
+.backimg {
+    color: white;
+    opacity: 0;
+    transition: 1s;
+}
+
+.contimg:hover {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.contimg:hover .backimg {
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-top: 30%;
+    opacity: 1;
+    transition: 1s;
 }

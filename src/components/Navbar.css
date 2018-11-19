@@ -8,6 +8,7 @@
     border-color: white;
     border-width: 1px;
     transition: 1.5s;
+    z-index: 1!important;
 }
 
 .Navigation:hover {

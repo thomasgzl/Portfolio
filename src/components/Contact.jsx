@@ -1,43 +1,81 @@
-import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
-import { SocialIcon } from 'react-social-icons';
-import './Contact.css';
+import React, { Component } from "react";
+import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import ScrollableAnchor from "react-scrollable-anchor";
+import { SocialIcon } from "react-social-icons";
+import logoTg from "./thomasgonzalez.png";
+import "./Contact.css";
 
 class Contact extends Component {
+  render() {
+    return (
+      <ScrollableAnchor id={"Contact"}>
+        <div className="Contact">
+          <h1>CONTACT</h1>
 
-    render() { 
-        return (
+            <Form>
+      <div className="form">
+        <FormGroup row>
+          <Col sm={10}>
+            <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
+          </Col>
+        </FormGroup>
 
-        <ScrollableAnchor id={'Contact'}>
-         <div className="Contact">
-        <h1>CONTACT</h1>
-        <p className="paragraphe">
-📱Passionné par l'univers de l'informatique ainsi que les nouvelles technologies, je me suis tout d'abord dirigé vers le design, puis, ayant soif d'en apprendre plus, j'ai ensuite continué vers le développement web. < br/>
+        <FormGroup row>
+          <Col sm={10}>
+            <Input type="name" name="name" id="exampleName" placeholder="Nom" />
+          </Col>
+        </FormGroup>
 
-🎮🎧🎩 Mon intérêt pour les jeux-vidéo, la musique et la mode alimente mon esprit sur l'image et le détail.< br/>
+                <FormGroup row>
+          <Col sm={10}>
+            <Input type="textarea" name="text" id="exampleText" placeholder="Message" />
+          </Col>
+        </FormGroup>
+            </div>
+        
+            <button action="mailto:thomasgonzalez.pro@gmail.com" className="subButton">ENVOYER</button>
+     
+      </Form>
 
-🌎 Friand de découvrir le monde, l'univers du numérique étant pour moi universel, le développement informatique ouvre des possibilités intéressantes sur le monde.< br/>
 
-🎓 Titulaire d’un BTS en Design Graphique, je suis actuellement en formation dans le développement web JavaScript REACT à la Wild Code School de Bordeaux.
-</p>
-
-      <div className="Footer">
-        <h1>EL FOOTER</h1>
-        <SocialIcon color="white" className="LinkedIn" url="https://www.linkedin.com/in/thomasgzl/" />
-        <SocialIcon color="white" className="Twitter" url="https://twitter.com/athmos6" />
-        <SocialIcon color="white" className="Insta" url="https://www.instagram.com/athmos6/" />
-        <SocialIcon color="white" className="Git" url="https://github.com/thomasgzl" />
-        <SocialIcon color="white" className="Mail" url="mailto:thomasgonzalez.pro@gmail.com" />
-        <p className="copyright"> Made with <span className="coeur">♥</span> by Thomas Gonzalez • Développeur web junior • Copyright © 2018 </p>
-
-      </div>
-
-      </div>
-
+          <div className="Footer">
+          <a href="#"> <img src={logoTg} className="FootLogo" alt="logo" /> </a>
+            <br />
+            <SocialIcon
+              color="white"
+              className="LinkedIn"
+              url="https://www.linkedin.com/in/thomasgzl/"
+            />
+            <SocialIcon
+              color="white"
+              className="Twitter"
+              url="https://twitter.com/athmos6"
+            />
+            <SocialIcon
+              color="white"
+              className="Insta"
+              url="https://www.instagram.com/athmos6/"
+            />
+            <SocialIcon
+              color="white"
+              className="Git"
+              url="https://github.com/thomasgzl"
+            />
+            <SocialIcon
+              color="white"
+              className="Mail"
+              url="mailto:thomasgonzalez.pro@gmail.com"
+            />
+            <p className="copyright">
+              {" "}
+              Made with <span className="coeur">♥</span> by Thomas Gonzalez •
+              Développeur web junior • Copyright © 2018{" "}
+            </p>
+          </div>
+        </div>
       </ScrollableAnchor>
-
-          );
-    }
+    );
+  }
 }
- 
+
 export default Contact;

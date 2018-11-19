@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import { Card, CardTitle, CardImg, CardImgOverlay, Col, Row, Container } from 'reactstrap';
+import img1 from '../img/Cerftete.png';
+import img2 from '../img/Dolphins.png';
 import './Projets.css';
 
 class Projets extends Component {
@@ -10,15 +13,33 @@ class Projets extends Component {
         <ScrollableAnchor id={'Projets'}>
          <div className="Projets">
         <h1>MES PROJETS</h1>
-        <p className="paragraphe">
-📱Passionné par l'univers de l'informatique ainsi que les nouvelles technologies, je me suis tout d'abord dirigé vers le design, puis, ayant soif d'en apprendre plus, j'ai ensuite continué vers le développement web. < br/>
+        <Container>
+            <Row> 
+        <Col className="contimg" lg={6}>
+                    <a href="http://www.campus-bordeaux.ovh/xteam/" target="_blank">
+                    <CardImg width="100%" className="projetImg" src={img1} alt="img1" />
+                    <CardImgOverlay>
+                    <div className="backimg">
+                    <h2>CERF-TÊTE</h2>
+                    <p>[HTML5 / CSS / Bootstrap]</p>
+                    </div>
+                    </CardImgOverlay>
+                    </a>
+                    </Col>
 
-🎮🎧🎩 Mon intérêt pour les jeux-vidéo, la musique et la mode alimente mon esprit sur l'image et le détail.< br/>
-
-🌎 Friand de découvrir le monde, l'univers du numérique étant pour moi universel, le développement informatique ouvre des possibilités intéressantes sur le monde.< br/>
-
-🎓 Titulaire d’un BTS en Design Graphique, je suis actuellement en formation dans le développement web JavaScript REACT à la Wild Code School de Bordeaux.
-</p>
+                    <Col className="contimg" lg={6}>
+                    <a href="#" target="_blank">
+                    <CardImg width="100%" className="projetImg" src={img2} alt="img1" />
+                    <CardImgOverlay>
+                    <div className="backimg">
+                    <CardTitle><h2>MIAMI DOLPHINS</h2></CardTitle>
+                    <p>[Javascript / React / Reactstrap]</p>
+                    </div>
+                    </CardImgOverlay>
+                    </a>
+                    </Col>
+                    </Row>
+                    </Container>
 
       </div>
       </ScrollableAnchor>

@@ -1,5 +1,5 @@
 .Contact {
-    background-color: rgba(22, 116, 4, 0.9);
+    background: url('../img/2background.png');
     color: white;
     height: 1080px;
 }
@@ -9,52 +9,63 @@
 }
 
 .Footer {
-    background-color: rgb(38, 67, 35);
+    background-color: rgb(106, 106, 106);
+    
 }
 
 .Twitter {
     opacity: 0.50;
     margin: 1%;
+    transition: 0.5s;
 }
 
 .Twitter:hover {
     opacity: 1;
+    transition: 0.5s;
 }
 
 .Insta {
     opacity: 0.50;
     margin: 1%;
+    transition: 0.5s;
 }
 
 .Insta:hover {
     opacity: 1;
+    transition: 0.5s;
 }
 
 .Git {
     opacity: 0.50;
     margin: 1%;
+    transition: 0.5s;
 }
 
 .Git:hover {
     opacity: 1;
+    transition: 0.5s;
 }
 
 .Mail {
     opacity: 0.50;
     margin: 1%;
+    transition: 0.5s;
 }
 
 .Mail:hover {
     opacity: 1;
+    transition: 0.5s;
 }
 
 .LinkedIn {
     opacity: 0.50;
     margin: 1%;
+    transition: 0.5s;
 }
 
 .LinkedIn:hover {
     opacity: 1;
+    transition: 0.5s;
 }
 
 .copyright {
@@ -67,4 +78,30 @@
 .coeur {
     color: red;
     font-size: 15px;
+}
+
+.FootLogo {
+    width: 500px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.form {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 14%;
+}
+
+.subButton {
+    border: 0px solid;
+    color: black;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 1s;
+}
+
+.subButton:hover {
+    color: white;
+    background-color: rgba(26, 26, 26, 0);
+    transition: 1s;
 }

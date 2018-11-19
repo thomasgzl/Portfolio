@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import logoTG from './thomasgonzalezHome.png'
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 import HeaderButton from './components/Button';
@@ -19,12 +20,10 @@ class App extends Component {
       <ScrollableAnchor id={'home'}>
         <header className="App-header">
 
-          <h1 className="titre">
-            GONZALEZ THOMAS
-          </h1>
+          <img src={logoTG} className="logoHome" alt="logoHome" />
 
           <h2 className="sous-titre">
-          💻 Développeur web Full-Stack - JavaScript / React / Node.js -
+          Développeur web Junior
           </h2>
           <HeaderButton />
 

@@ -8,7 +8,7 @@ export default class HeaderButton extends React.Component {
   render() {
     return (
       <div>
-        <Button href='#Apropos' outline className="headerButton">Entrer </Button>
+        <Button href='#Apropos' outline className="headerButton">ENTRER</Button>
       </div>
     );
   }

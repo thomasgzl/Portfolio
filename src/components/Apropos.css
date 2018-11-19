@@ -19,11 +19,40 @@
 }
 
 .buttonGit {
-    background-color: #092232;
+    background-color: #181818;
+    color: white;
     border: none;
     margin: 10%;
+    transition: 1s;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
 }
 
 .buttonGit:hover {
-    background-color: rgb(62, 20, 20);
+    background-color: rgb(255, 255, 255);
+    color: #181818;
+    transition: 1s;
+}
+
+.buttonCV {
+    background-color: #181818;
+    color: white;
+    border: none;
+    margin: 10%;
+    transition: 1s;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.buttonCV:hover {
+    background-color: rgb(255, 255, 255);
+    color: #181818;
+    transition: 1s;
+}
+
+.myPhoto {
+    padding-top: 4%;
+    width: 150px;
 }
