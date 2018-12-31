@@ -1,5 +1,4 @@
 .Contact {
-    background: url('../img/2background.png');
     color: white;
     height: 1080px;
 }
@@ -8,8 +7,13 @@
     padding-top: 100px;
 }
 
+.input{
+    background-color: rgba(255, 255, 255, 0)!important;
+    color: white!important;
+}
+
 .Footer {
-    background-color: rgb(106, 106, 106);
+    background-color: #08101ddb;
     
 }
 
@@ -94,7 +98,7 @@
 
 .subButton {
     border: 0px solid;
-    color: black;
+    color: rgb(198, 198, 198);
     margin-bottom: 2%;
     background-color: rgba(255, 255, 255, 0);
     transition: 1s;

@@ -1,11 +1,22 @@
 .aPropos {
-    background: url('../img/2background.png');
     color: white;
     height: 1080px;
 }
 
 .aPropos h1 {
     padding-top: 100px;
+}
+
+.hr {
+    height: 1px;
+    width: 70%;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.iconsCompetences {
+    font-size: 80px;
+    size: 80px;
 }
 
 .paragraphe {
@@ -19,7 +30,7 @@
 }
 
 .buttonGit {
-    background-color: #181818;
+    background-color: #1e1e1e00;
     color: white;
     border: none;
     margin: 10%;
@@ -30,13 +41,13 @@
 }
 
 .buttonGit:hover {
-    background-color: rgb(255, 255, 255);
-    color: #181818;
+    background-color: rgba(255, 255, 255, 0);
+    color: #e1e1e1;
     transition: 1s;
 }
 
 .buttonCV {
-    background-color: #181818;
+    background-color: #1e1e1e00;
     color: white;
     border: none;
     margin: 10%;
@@ -47,8 +58,8 @@
 }
 
 .buttonCV:hover {
-    background-color: rgb(255, 255, 255);
-    color: #181818;
+    background-color: rgba(255, 255, 255, 0);
+    color: #e1e1e1;
     transition: 1s;
 }
 

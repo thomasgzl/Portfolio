@@ -12,7 +12,7 @@
 }
 
 .Navigation:hover {
-    background-color: rgba(22, 22, 22, 0.9);
+    background-color: #08101ddb;
     transition: 0.8s;
     border-color: transparent;
 }
@@ -21,7 +21,7 @@
     height: 60px;
 }
 
-h4.links {
+h4.links{
     color: rgb(255, 255, 255);
     font-size: 17px;
     margin-right: 50px;
@@ -31,6 +31,14 @@ h4.links {
 h4.links:hover {
     color: rgb(158, 158, 158);
     text-decoration: none;
+}
+
+h6.links {
+    color: rgb(255, 255, 255);
+}
+
+h6.links:hover {
+    color: rgb(0, 30, 255);
 }
 
 .logoNav {

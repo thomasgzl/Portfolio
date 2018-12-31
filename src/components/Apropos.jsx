@@ -46,6 +46,15 @@ class Apropos extends Component {
             formation dans le développement web JavaScript REACT à la Wild Code
             School de Bordeaux.
           </p>
+          <h3 className="iconsCompetences">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-js"></i>
+          </h3>
+
+        <hr className="hr"/>
 
           <a href="https://github.com/thomasgzl" target="_blank">
             <button className="buttonGit">

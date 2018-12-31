@@ -1,6 +1,6 @@
 .Projets {
-    background: url('../img/2background.png');
-    color: white;
+    background-color: rgba(244, 244, 244, 0.865);
+    color: black;
     height: 1080px;
 }
 
@@ -22,15 +22,10 @@
     transition: 1s;
 }
 
-.contimg:hover {
-    opacity: 0.5;
-    transition: 1s;
-}
-
 .contimg:hover .backimg {
+  background-color: rgba(0, 0, 0, 0.447);
     color: white;
-    text-shadow: 1px 1px black;
-    margin-top: 30%;
+    margin-top: 60%;
     opacity: 1;
     transition: 1s;
 }

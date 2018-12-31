@@ -10,25 +10,31 @@ class Contact extends Component {
     return (
       <ScrollableAnchor id={"Contact"}>
         <div className="Contact">
-          <h1>CONTACT</h1>
+        <h1> <i class="far fa-comments"></i> CONTACT</h1>
 
             <Form>
       <div className="form">
         <FormGroup row>
           <Col sm={10}>
-            <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
+            <Input className="input" type="email" name="email" id="exampleEmail" placeholder="Email" />
           </Col>
         </FormGroup>
 
         <FormGroup row>
           <Col sm={10}>
-            <Input type="name" name="name" id="exampleName" placeholder="Nom" />
+            <Input className="input" type="name" name="name" id="exampleName" placeholder="Nom" />
+          </Col>
+        </FormGroup>
+
+        <FormGroup row>
+          <Col sm={10}>
+            <Input className="input" type="object" name="object" id="exampleObject" placeholder="Objet" />
           </Col>
         </FormGroup>
 
                 <FormGroup row>
           <Col sm={10}>
-            <Input type="textarea" name="text" id="exampleText" placeholder="Message" />
+            <Input className="input" type="textarea" name="text" id="exampleText" placeholder="Message" />
           </Col>
         </FormGroup>
             </div>
